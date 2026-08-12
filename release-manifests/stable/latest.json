@@ -1,30 +1,31 @@
 {
-    "version":  "1.4.4",
-    "date":  "2026-08-12",
-    "channel":  "stable",
-    "changes":  [
-                    "修正项目主页地址，并将官网与管理台路由分离",
-                    "新增公开安装器仓库与私人源码仓库的同步规则",
-                    "公开仓库仅保留安装器、校验文件、README 和版本说明",
-                    "在线更新继续优先使用腾讯云，失败后切换 Cloudflare"
-                ],
-    "downloads":  [
-                      {
-                          "source":  "Tencent Cloud",
-                          "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.4.zip",
-                          "sha256":  "5e9c6e9f0eaa4de1d9db7c30bb489d12038ef1ddf81e7743b2b33f72b547dfbb",
-                          "size":  800896
-                      },
-                      {
-                          "source":  "Cloudflare",
-                          "url":  "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.4.zip",
-                          "sha256":  "5e9c6e9f0eaa4de1d9db7c30bb489d12038ef1ddf81e7743b2b33f72b547dfbb",
-                          "size":  800896
-                      }
-                  ],
-    "installer":  {
-                      "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.4.exe",
-                      "sha256":  "5ab0142086c1fac92652d48f5708164a62e002e30a9b17f70b5b9935ea56d97c",
-                      "size":  949760
-                  }
+  "version": "1.4.5",
+  "date": "2026-08-13",
+  "channel": "stable",
+  "changes": [
+    "重建官网首页、在线版、版本说明与个人中心四个页面",
+    "在线版新增生成预览、历史切换、项目保存与图片导出",
+    "个人中心接入真实账户、会员、积分、绑定状态与生成记录",
+    "完善插件关于页并新增官网与版本说明入口",
+    "在线更新继续优先使用腾讯云，失败后切换 Cloudflare"
+  ],
+  "downloads": [
+    {
+      "source": "Tencent Cloud",
+      "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.5.zip",
+      "sha256": "7c32b81d84c975d5deb76d8d0ebc8dfe7fc4eb49b908dd93aa2480c3bcabfa1b",
+      "size": 806676
+    },
+    {
+      "source": "Cloudflare",
+      "url": "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.5.zip",
+      "sha256": "7c32b81d84c975d5deb76d8d0ebc8dfe7fc4eb49b908dd93aa2480c3bcabfa1b",
+      "size": 806676
+    }
+  ],
+  "installer": {
+    "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.5.exe",
+    "sha256": "96d079d926518328ac509ab3d3e6ad1b50cd50a9bb8a3c778e2a10dc087037f9",
+    "size": 955392
+  }
 }
