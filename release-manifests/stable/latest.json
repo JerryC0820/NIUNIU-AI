@@ -1,31 +1,30 @@
 {
-    "version":  "1.4.3",
+    "version":  "1.4.4",
     "date":  "2026-08-12",
     "channel":  "stable",
     "changes":  [
-                    "同账号同步生成记录与轻量缩略图，原始大图仍仅保存在本地",
-                    "新增邮箱与微信绑定流程，首次绑定微信赠送 30 天 Pro",
-                    "个人中心显示会员状态、到期时间和实时倒计时",
-                    "安装器内置完整插件包，不再依赖私有 GitHub 或现场网络",
-                    "兼容 Photoshop 2026，并扩展在线更新的公开下载源"
+                    "修正项目主页地址，并将官网与管理台路由分离",
+                    "新增公开安装器仓库与私人源码仓库的同步规则",
+                    "公开仓库仅保留安装器、校验文件、README 和版本说明",
+                    "在线更新继续优先使用腾讯云，失败后切换 Cloudflare"
                 ],
     "downloads":  [
                       {
                           "source":  "Tencent Cloud",
-                          "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.3.zip",
-                          "sha256":  "6b8d12ab32419f5e5f5da252c08c13db310ad07198b865c85db30c57be9c2196",
-                          "size":  798064
+                          "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.4.zip",
+                          "sha256":  "5e9c6e9f0eaa4de1d9db7c30bb489d12038ef1ddf81e7743b2b33f72b547dfbb",
+                          "size":  800896
                       },
                       {
                           "source":  "Cloudflare",
-                          "url":  "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.3.zip",
-                          "sha256":  "6b8d12ab32419f5e5f5da252c08c13db310ad07198b865c85db30c57be9c2196",
-                          "size":  798064
+                          "url":  "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.4.zip",
+                          "sha256":  "5e9c6e9f0eaa4de1d9db7c30bb489d12038ef1ddf81e7743b2b33f72b547dfbb",
+                          "size":  800896
                       }
                   ],
     "installer":  {
-                      "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.3.exe",
-                      "sha256":  "3f27ffb790e40be922579ce3f5a1f7f0bd8347810d0a90dc0c6b2decd79ef897",
-                      "size":  947200
+                      "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.4.exe",
+                      "sha256":  "5ab0142086c1fac92652d48f5708164a62e002e30a9b17f70b5b9935ea56d97c",
+                      "size":  949760
                   }
 }
