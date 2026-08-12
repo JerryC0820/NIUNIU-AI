@@ -1,0 +1,31 @@
+{
+    "version":  "1.4.3",
+    "date":  "2026-08-12",
+    "channel":  "stable",
+    "changes":  [
+                    "同账号同步生成记录与轻量缩略图，原始大图仍仅保存在本地",
+                    "新增邮箱与微信绑定流程，首次绑定微信赠送 30 天 Pro",
+                    "个人中心显示会员状态、到期时间和实时倒计时",
+                    "安装器内置完整插件包，不再依赖私有 GitHub 或现场网络",
+                    "兼容 Photoshop 2026，并扩展在线更新的公开下载源"
+                ],
+    "downloads":  [
+                      {
+                          "source":  "Tencent Cloud",
+                          "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.3.zip",
+                          "sha256":  "6b8d12ab32419f5e5f5da252c08c13db310ad07198b865c85db30c57be9c2196",
+                          "size":  798064
+                      },
+                      {
+                          "source":  "Cloudflare",
+                          "url":  "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.3.zip",
+                          "sha256":  "6b8d12ab32419f5e5f5da252c08c13db310ad07198b865c85db30c57be9c2196",
+                          "size":  798064
+                      }
+                  ],
+    "installer":  {
+                      "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.3.exe",
+                      "sha256":  "3f27ffb790e40be922579ce3f5a1f7f0bd8347810d0a90dc0c6b2decd79ef897",
+                      "size":  947200
+                  }
+}
