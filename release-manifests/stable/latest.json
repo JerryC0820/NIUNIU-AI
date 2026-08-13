@@ -1,29 +1,31 @@
 {
-  "version": "1.4.9",
+  "version": "1.5.1",
   "date": "2026-08-14",
   "channel": "stable",
   "changes": [
-    "修复提示词润色或反推完成及插件重开后处理状态残留的问题",
-    "修复文生图、图生图和局部编辑的尺寸串位、预览裁切及 4K 超分方向问题",
-    "图生图和局部修复新增原图对比滑块"
+    "修复多种图像模型的尺寸比例请求与 4K 超分拉伸问题",
+    "优化生成结果从模糊预览到清晰图片的连续过渡",
+    "修复主界面模型选择自动跳回其他模型的问题",
+    "新增相册与最近记录的原比例和方形预览切换及快捷收藏",
+    "会员功能开关现在会跟随登录账号跨设备同步"
   ],
   "downloads": [
     {
       "source": "Tencent Cloud",
-      "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.9.zip",
-      "sha256": "56bed9afc0661698bb28c1e2f9b2b6489802779196dd86e9bb10142fef61391b",
-      "size": 1955957
+      "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.5.1.zip",
+      "sha256": "5252d635bfebe465df4d720e249645a4cf7ffaed917c29b8da9585330eb3a746",
+      "size": 1960824
     },
     {
       "source": "Cloudflare",
-      "url": "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.9.zip",
-      "sha256": "56bed9afc0661698bb28c1e2f9b2b6489802779196dd86e9bb10142fef61391b",
-      "size": 1955957
+      "url": "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.5.1.zip",
+      "sha256": "5252d635bfebe465df4d720e249645a4cf7ffaed917c29b8da9585330eb3a746",
+      "size": 1960824
     }
   ],
   "installer": {
-    "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.9.exe",
-    "sha256": "0472de181efcbeb54f63cc789fe054d034bd9d8bd07313c009dfef1e65cb9b7e",
-    "size": 2182656
+    "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.5.1.exe",
+    "sha256": "d996cd5876d76a4beecaf48d6f479bb58c78a270547c26156164b374fb5ba610",
+    "size": 2187776
   }
 }
