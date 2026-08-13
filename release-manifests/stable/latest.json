@@ -1,30 +1,29 @@
 {
-    "version":  "1.4.8",
-    "date":  "2026-08-13",
-    "channel":  "stable",
-    "changes":  [
-                    "修复外部模型切换后设置页接口配置被旧模型来源回写的问题",
-                    "兼容 Photoshop CC 2015–2019 的旧 CEP 前端加载路径，改用静态 Tailwind 样式",
-                    "保留 Photoshop CC 2015–2026 宿主声明范围，并补充旧版 ExtendScript 防护",
-                    "补充公开功能、安装、接口配置与使用说明"
-                ],
-    "downloads":  [
-                      {
-                          "source":  "Tencent Cloud",
-                          "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.8.zip",
-                          "sha256":  "b4204c44c756ce054aacb89f58f257e319d67eadc9cff44bbadea292b558fe78",
-                          "size":  1948767
-                      },
-                      {
-                          "source":  "Cloudflare",
-                          "url":  "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.8.zip",
-                          "sha256":  "b4204c44c756ce054aacb89f58f257e319d67eadc9cff44bbadea292b558fe78",
-                          "size":  1948767
-                      }
-                  ],
-    "installer":  {
-                      "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.8.exe",
-                      "sha256":  "7b7c2291bd50db1a49686f30a7789ee4a2ce022ee44cf9432b1a25d4ba34b4c3",
-                      "size":  2175488
-                  }
+  "version": "1.4.9",
+  "date": "2026-08-14",
+  "channel": "stable",
+  "changes": [
+    "修复提示词润色或反推完成及插件重开后处理状态残留的问题",
+    "修复文生图、图生图和局部编辑的尺寸串位、预览裁切及 4K 超分方向问题",
+    "图生图和局部修复新增原图对比滑块"
+  ],
+  "downloads": [
+    {
+      "source": "Tencent Cloud",
+      "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.9.zip",
+      "sha256": "56bed9afc0661698bb28c1e2f9b2b6489802779196dd86e9bb10142fef61391b",
+      "size": 1955957
+    },
+    {
+      "source": "Cloudflare",
+      "url": "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.9.zip",
+      "sha256": "56bed9afc0661698bb28c1e2f9b2b6489802779196dd86e9bb10142fef61391b",
+      "size": 1955957
+    }
+  ],
+  "installer": {
+    "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.9.exe",
+    "sha256": "0472de181efcbeb54f63cc789fe054d034bd9d8bd07313c009dfef1e65cb9b7e",
+    "size": 2182656
+  }
 }
