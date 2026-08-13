@@ -1,33 +1,31 @@
 {
-    "version":  "1.4.6",
-    "date":  "2026-08-13",
-    "channel":  "stable",
-    "changes":  [
-                    "高保真优化官网首页、在线版、版本说明与个人中心，并补齐宽屏、移动端和滚动动效",
-                    "网站与插件微信扫码登录新增加载过渡、二维码淡入和失败提示",
-                    "优化右上角账号入口、登录切换与个人中心交互体验",
-                    "插件个人中心新增微信绑定 30 天 Pro 奖励状态，扫码登录未绑定邮箱时继续完成邮箱验证",
-                    "演示图与历史缩略图改为本地 WebP 资源，不再依赖外部图片",
-                    "使用 Image2 重制高清 Windows 安装器图标，并针对小尺寸图标优化清晰度",
-                    "在线更新继续优先使用腾讯云，失败后切换 Cloudflare"
-                ],
-    "downloads":  [
-                      {
-                          "source":  "Tencent Cloud",
-                          "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.6.zip",
-                          "sha256":  "c9f6e2e74b842795a9c9b1c0acec0e8705132ecbf18ef994c1a0fd718a5f30df",
-                          "size":  1839653
-                      },
-                      {
-                          "source":  "Cloudflare",
-                          "url":  "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.6.zip",
-                          "sha256":  "c9f6e2e74b842795a9c9b1c0acec0e8705132ecbf18ef994c1a0fd718a5f30df",
-                          "size":  1839653
-                      }
-                  ],
-    "installer":  {
-                      "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.6.exe",
-                      "sha256":  "dab567976c2fae33ab2230dc8730adcb4579df2697e8a5f1b70462bf527028fd",
-                      "size":  2066432
-                  }
+  "version": "1.4.7",
+  "date": "2026-08-13",
+  "channel": "stable",
+  "changes": [
+    "优化首页在不同屏幕尺寸下的人物构图、流程卡片与在线预览布局",
+    "统一官网与 Photoshop 插件的品牌图标显示",
+    "首页下载入口新增当前版本号，版本说明页精简公开信息",
+    "在线版明确标注为产品预览，正式功能仍在开发中",
+    "优化在线更新进度与失败提示"
+  ],
+  "downloads": [
+    {
+      "source": "Tencent Cloud",
+      "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.7.zip",
+      "sha256": "1b8a40ee399a1b33bd842bccc5152e3ed1321e4be65ed54be85a49815808a679",
+      "size": 1847635
+    },
+    {
+      "source": "Cloudflare",
+      "url": "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.7.zip",
+      "sha256": "1b8a40ee399a1b33bd842bccc5152e3ed1321e4be65ed54be85a49815808a679",
+      "size": 1847635
+    }
+  ],
+  "installer": {
+    "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.7.exe",
+    "sha256": "cbd02d6983bc458c56bfda04b6ad1c79c05edd35d129379031f57313eb317f0b",
+    "size": 2074624
+  }
 }
