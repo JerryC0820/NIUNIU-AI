@@ -1,31 +1,30 @@
 {
-  "version": "1.4.7",
-  "date": "2026-08-13",
-  "channel": "stable",
-  "changes": [
-    "优化首页在不同屏幕尺寸下的人物构图、流程卡片与在线预览布局",
-    "统一官网与 Photoshop 插件的品牌图标显示",
-    "首页下载入口新增当前版本号，版本说明页精简公开信息",
-    "在线版明确标注为产品预览，正式功能仍在开发中",
-    "优化在线更新进度与失败提示"
-  ],
-  "downloads": [
-    {
-      "source": "Tencent Cloud",
-      "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.7.zip",
-      "sha256": "1b8a40ee399a1b33bd842bccc5152e3ed1321e4be65ed54be85a49815808a679",
-      "size": 1847635
-    },
-    {
-      "source": "Cloudflare",
-      "url": "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.7.zip",
-      "sha256": "1b8a40ee399a1b33bd842bccc5152e3ed1321e4be65ed54be85a49815808a679",
-      "size": 1847635
-    }
-  ],
-  "installer": {
-    "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.7.exe",
-    "sha256": "cbd02d6983bc458c56bfda04b6ad1c79c05edd35d129379031f57313eb317f0b",
-    "size": 2074624
-  }
+    "version":  "1.4.8",
+    "date":  "2026-08-13",
+    "channel":  "stable",
+    "changes":  [
+                    "修复外部模型切换后设置页接口配置被旧模型来源回写的问题",
+                    "兼容 Photoshop CC 2015–2019 的旧 CEP 前端加载路径，改用静态 Tailwind 样式",
+                    "保留 Photoshop CC 2015–2026 宿主声明范围，并补充旧版 ExtendScript 防护",
+                    "补充公开功能、安装、接口配置与使用说明"
+                ],
+    "downloads":  [
+                      {
+                          "source":  "Tencent Cloud",
+                          "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.4.8.zip",
+                          "sha256":  "b4204c44c756ce054aacb89f58f257e319d67eadc9cff44bbadea292b558fe78",
+                          "size":  1948767
+                      },
+                      {
+                          "source":  "Cloudflare",
+                          "url":  "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.4.8.zip",
+                          "sha256":  "b4204c44c756ce054aacb89f58f257e319d67eadc9cff44bbadea292b558fe78",
+                          "size":  1948767
+                      }
+                  ],
+    "installer":  {
+                      "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.4.8.exe",
+                      "sha256":  "7b7c2291bd50db1a49686f30a7789ee4a2ce022ee44cf9432b1a25d4ba34b4c3",
+                      "size":  2175488
+                  }
 }
