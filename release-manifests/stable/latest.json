@@ -1,30 +1,36 @@
 {
-  "version": "1.5.2",
-  "date": "2026-08-14",
-  "channel": "stable",
-  "changes": [
-    "新增 BBAPI 统一账号登录、注册、密码找回与两步验证",
-    "新增 API 实验室与 Codex 账号授权捕获",
-    "新增用户专属中转分组与 API Key",
-    "优化接口配置跨设备同步与首次使用引导"
-  ],
-  "downloads": [
-    {
-      "source": "Tencent Cloud",
-      "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.5.2.zip",
-      "sha256": "080d344293f341d40e08af7818fe166e616ff1cae26ee4c82230600ef6929ed2",
-      "size": 1977062
-    },
-    {
-      "source": "Cloudflare",
-      "url": "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.5.2.zip",
-      "sha256": "080d344293f341d40e08af7818fe166e616ff1cae26ee4c82230600ef6929ed2",
-      "size": 1977062
-    }
-  ],
-  "installer": {
-    "url": "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.5.2.exe",
-    "sha256": "c3907483a83c4a7b670ac216365f9cd97c8e896859f66428af2eff8e482c2ae8",
-    "size": 2203648
-  }
+    "version":  "1.5.3",
+    "date":  "2026-08-14",
+    "channel":  "stable",
+    "changes":  [
+                    "登录后静默创建或绑定 BBAPI 身份",
+                    "API 实验室自动上传 Codex 账号、创建专属 Key 并导入选中接口",
+                    "移除 BBAPI 人工关联与 API 实验室手工配置步骤",
+                    "修复已登录仍显示登录遮罩，并补充头像菜单 API 实验室入口",
+                    "修复 API 实验室配置状态卡住并增加请求恢复机制",
+                    "修复图片反推重复候选占用次数与真实错误丢失",
+                    "修复提示词模型下拉在窄面板中被裁切",
+                    "API 实验室按真实窗口显示 5 小时、7 天、月度与附加额度，并标注账号套餐",
+                    "修复中英文切换后设置页与功能界面未即时同步",
+                    "新增后台活跃用户、生图并发、请求趋势与时段热力图统计"
+                ],
+    "downloads":  [
+                      {
+                          "source":  "Tencent Cloud",
+                          "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-1.5.3.zip",
+                          "sha256":  "e0a5dc4290e237fed73587570d45348bce6cf00735317db811fcfd44cc62b1a0",
+                          "size":  1984105
+                      },
+                      {
+                          "source":  "Cloudflare",
+                          "url":  "https://nai.ainivox.cn/releases/stable/NIUNIU-AI-1.5.3.zip",
+                          "sha256":  "e0a5dc4290e237fed73587570d45348bce6cf00735317db811fcfd44cc62b1a0",
+                          "size":  1984105
+                      }
+                  ],
+    "installer":  {
+                      "url":  "https://origin-douyin.ainivox.cn/niuniu-ai/releases/stable/NIUNIU-AI-Setup-1.5.3.exe",
+                      "sha256":  "2923682bf775aab80fcb73dbd59c705322c4e82aaf818b04faf718d5709f2816",
+                      "size":  2210816
+                  }
 }
